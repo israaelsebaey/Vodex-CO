@@ -16,8 +16,10 @@
   <link href="./assets/css/styles.css" rel="stylesheet" />
   <link rel="icon" href="./assets/img/icon.svg">
   <style>
-    @font-face { font-family: aaa; src: url('./assets/plugins/Fonts/Gilroy-Black.ttf'); } 
-
+    @font-face {
+      font-family: aaa; 
+      src: url('./assets/plugins/Fonts/Gilroy-Black.ttf');
+    } 
 </style>
 </head>
 
@@ -41,7 +43,7 @@
               <a class="nav-link mx-lg-3 mx-0" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-3 mx-0" href="#about_us">About US</a>
+              <a class="nav-link mx-lg-3 mx-0" href="#about">About US</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-3 mx-0" href="#team">Our Team</a>
@@ -50,7 +52,7 @@
               <a class="nav-link mx-lg-3 mx-0" href="#products">Our Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-3 mx-0" href="#contact_us">Contact US</a>
+              <a class="nav-link mx-lg-3 mx-0" href="#contact">Contact US</a>
             </li>
           </ul>
         </div>
@@ -65,13 +67,13 @@
         <div class="col-lg-6 col-12 mt-5 mb-3 d-flex flex-column justify-content-center">
           <h2 class="title" style="font-family: aaa ;">Race <br />The <br />Future</h2>
           <p class="text mx-1">Because good is not enough anymore</p>
-          <a class="btn btn-primary mt-3" href="#contact_us">Contact Us</a>
+          <a class="btn btn-primary mt-3" href="#contact">Contact Us</a>
         </div>
-        <div class="col-lg-6 col-12 img d-flex justify-content-center align-items-center  home-slider">
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="col-lg-6 col-12 img d-flex justify-content-center align-items-center  ">
+          <div id="carouselExampleSlidesOnly" class="carousel slide home-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="2000">
-                <img src="./assets/img/Animation 2.png" class="d-block w-100 img1"/>
+                <img src="./assets/img/Animation1.png" class="d-block w-100 img1"/>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img src="./assets//img/Animation.png" class="d-block w-100"/>
@@ -87,7 +89,7 @@
   <div class="container-fluid services mt-5" id="services">
     <div class="container">
       <div class="row">
-        <div class="col-12 mb-3">
+        <div class="col-12 mb-4">
           <p class="title">Our Services</p>
         </div>
       </div>
@@ -285,7 +287,7 @@
   </div>
   <!--Service Section End-->
   <!--About US Section Start-->
-  <div class="container-fluid about_us mt-5" id="about_us">
+  <div class="container-fluid about_us mt-5 mb-3" id="about">
     <div class="container pt-5">
       <div class="row">
         <div class="col-md-6 col-12">
@@ -298,7 +300,7 @@
             and your identity
           </p>
         </div>
-        <div class="col-md-6 col-12">
+        <div class="col-md-6 col-12 mb-4">
           <img src="./assets/img/undraw_team_collaboration_re_ow29.svg" />
         </div>
       </div>
@@ -307,7 +309,7 @@
   <!--About US Section End-->
 
   <!-- Start Our Team -->
-  <div class="our_team" id="team">
+  <div class="our_team mb-5" id="team">
     <div class="container pt-5">
       <div class="main-title">
         <h2 class="text-start fw-bold fs-1">Our Team</h2>
@@ -318,24 +320,13 @@
             <img class="pb-5" src="assets/img/Team/Ashraf Nagy.png" alt="" />
             <h2 class="fw-bold">Ashraf Nagy</h2>
             <span  class="fs-4 text">CEO</span> <br />
-            <div class="w-75 mx-auto">
-              <p class="mt-2">
-                The co-founder of vodex , Beinging more than five years of
-                experience with leading.
-              </p>
-            </div>  
           </div>
         </div>
         <div class="card text-center">
           <div class="body">
             <img class="pb-5" src="assets/img/Group 216.png" alt="" />
             <h2 class="fw-bold">Eman Higazy</h2>
-            <span class="fs-4 text">Vice president</span> <br />
-            <div class="w-75 mx-auto">
-              <p  class="mt-2">
-                Making decisions and overseeing internal operations .
-              </p>
-            </div>
+            <span class="fs-4 text">Vice President</span> <br />
           </div>
         </div>
         <div class="card text-center">
@@ -343,53 +334,27 @@
             <img class="pb-5" src="assets/img/Team/alaa.png" alt="" />
             <h2 class="fw-bold">Alaa Eldin</h2>
             <span  class="fs-4 text">CFO</span> <br />
-            <div class="w-75 mx-auto">
-              <p  class="mt-2">
-                Managing the financial actions of our company, Tracking
-                strengths and decides to invest the company’s money.
-              </p>
-            </div>
-            
           </div>
         </div>
         <div class="card text-center">
           <div class="body">
             <img class="pb-5" src="assets/img/Team/amr.png" alt="" />
             <h2 class="fw-bold">Amr Badawy</h2>
-            <span  class="fs-4 text"> Software developer</span> <br />
-            <div class="w-75 mx-auto">
-              <p  class="mt-2">
-                Building and testing software programming that can fit user
-                needs .
-              </p>
-            </div>   
+            <span  class="fs-4 text"> Software Developer</span> <br /> 
           </div>
         </div>
         <div class="card text-center">
           <div class="body">
             <img class="pb-5" src="assets/img/Team/ahmed.png" alt="" />
             <h2 class="fw-bold">Ahmed Salah</h2>
-            <span  class="fs-4 text">Front-End developer</span> <br />
-            <div class="w-75 mx-auto">
-              <p  class="mt-2">
-                Solving problems and implement websites and landing pages
-                from concept through deployment.
-              </p>
-            </div>
-            
+            <span  class="fs-4 text">Front-End Developer</span> <br />
           </div>
         </div>
         <div class="card text-center">
           <div class="body">
             <img class="pb-5" src="assets/img/Team/Esraa Elsebaay.png" alt="" />
-            <h2 class="fw-bold">Esraa Elsebaey</h2>
-            <span  class="fs-4 text">Front-End developer</span> <br />
-            <div class="w-75 mx-auto">
-              <p  class="mt-2">
-                Solving problems and implement websites and landing pages
-                from concept through deployment.
-              </p>
-            </div>
+            <h2 class="fw-bold">Esraa ELsebaey</h2>
+            <span  class="fs-4 text">Front-End Developer</span> <br />
             
           </div>
         </div>
@@ -398,28 +363,13 @@
             <img class="pb-5" src="assets/img/Team/mustafa.png" alt="" />
             <h2 class="fw-bold">Mustafa Mohamed</h2>
             <span  class="fs-4 text">System Administrator</span> <br />
-            <div class="w-75 mx-auto">
-              <p  class="mt-2">
-                Managing windows and upgrading software and hardware . I can
-                also maintaining networks and creating system permissions
-                regular security tests and security monitoring.
-              </p>
-            </div>
           </div>
         </div>
         <div class="card text-center">
           <div class="body">
             <img class="pb-5" src="assets/img/Team/gh.png" alt="" />
             <h2 class="fw-bold" >Ghada Mostafa</h2>
-            <span  class="fs-4 text">Moderator</span> <br />
-            <div class="w-75 mx-auto">
-              <p  class="mt-2">
-                Monitor posts, comments and caring about our customer’s opinion
-                . Also i check new uploads and engage with the community
-                everyday.
-              </p>
-            </div>
-            
+            <span  class="fs-4 text">Social Media Moderator</span> <br />
           </div>
         </div>
         <div class="card text-center">
@@ -427,13 +377,6 @@
             <img class="pb-5" src="assets/img/Team/zaki.png" alt="" />
             <h2 class="fw-bold">Ahmed Zaky</h2>
             <span  class="fs-4 text"> UI/UX Designer </span> <br />
-            <div class="w-75 mx-auto">
-              <p  class="mt-2">
-                 Designs eye-catchy websites and mobile applications. I can also create an
-                optimal experience for the user and understanding their behavior and needs
-                to make them achieve their desired tasks with minimal effort.
-              </p>
-            </div>
           </div>
         </div>
       </div>
@@ -468,7 +411,7 @@
   <!-- End Our Products -->
 
   <!-- Start Contact Us -->
-  <div class="contact" id="contact_us">
+  <div class="contact" id="contact" >
     <div class="container p-0">
       <div class="pt-5">
         <h2 class="fw-bold fs-1">Contact Us</h2>
@@ -496,7 +439,7 @@
         </div>
       
       <div class="d-grid pb-5 ">
-        <button class="btn fw-bold" type="button">Send</button>
+        <a href="mailto:info@Vodex-co.com" class="btn fw-bold" type="button">Send</a>
       </div>
     </div>
     </div>
@@ -512,19 +455,19 @@
             <img src="assets/img/Logo.svg" alt="" />
             <ul class="social-media gap-4">
               <li>
-                <a href="#"><i class="fa-brands fa-facebook-f fs-4"></i></a>
+                <a href="https://www.facebook.com/vodex.co" target="_blank"><i class="fa-brands fa-facebook-f fs-4"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa-brands fa-youtube fs-4"></i></a>
+                <a href="https://www.youtube.com/channel/UCFseV7vhW5_HuRrLNklYukA" target="_blank"><i class="fa-brands fa-youtube fs-4"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa-brands fa-instagram fs-4"></i></a>
+                <a href="https://www.instagram.com/vodex.co/" target="_blank"><i class="fa-brands fa-instagram fs-4"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa-brands fa-twitter fs-4"></i></a>
+                <a href="https://twitter.com/vodex_co" target="_blank"><i class="fa-brands fa-twitter fs-4"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa-brands fa-linkedin-in fs-4"></i></a>
+                <a href="https://www.linkedin.com/company/vodex-co/" target="_blank"><i class="fa-brands fa-linkedin-in fs-4"></i></a>
               </li>
             </ul>
           </div>
@@ -533,7 +476,7 @@
           <div class="links pt-5">
             <h2 class="text-uppercase fw-bold">Navigation</h2>
             <ul class="text-start">
-              <li><a href="#">About</a></li>
+              <li><a href="#about2">About</a></li>
               <li><a href="#">FAQ</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Help</a></li>
@@ -545,9 +488,10 @@
         <div class="col-lg-3 col-md-6">
           <div class="contactus lh-lg pt-5">
             <h2 class="text-uppercase fw-bold">Contact Us</h2>
-            <span class="text-white-50">Mailing Address: A B agha-khan, <br> Shubra Masr, Cairo</span>
+            <span class="text-white">Email: <a href='mailto:info@Vodex-co.com'  class="text-white email">info@Vodex-co.com</a></span><br/>
+            <span class="text-white">Address: A B agha-khan, <br> Shubra Masr, Cairo</span>
             <br />
-            <span>+999 90932 627</span>
+            <a class="phone" href="tel:+022 1960 990">+022 1960 990</a>
             <br />
             <p class="pt-5"><a href="https://maps.app.goo.gl/BLbBmoKLNRrc9g1q7">Get Directions</a></p>
           </div>
@@ -559,6 +503,10 @@
     </div>
   </footer>
   <!-- End Footer -->
+
+  <a href="#" class="back-to-top">
+    <img src="assets/img/Scroll Up.svg" alt="">
+  </a>
 
   <script src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
   <!-- <script src="./assets/plugins/bootstrap/all.min.js"></script> -->
