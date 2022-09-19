@@ -741,7 +741,7 @@ footer .links ul li {
 }
 
 footer .links ul li a {
-    color: #999;
+    color: var(--WhiteColor);
     text-decoration: none;
     padding-top: 10px;
 }
@@ -757,6 +757,11 @@ footer .contactus h2 {
 footer .contactus span {
     color: var(--white-color);
     padding-top: 10px;
+}
+
+footer .contactus .phone {
+    color: var(--white-color);
+    text-decoration: none;
 }
 
 footer .contactus a {
@@ -792,4 +797,25 @@ footer .copyright {
     .contact .container{
         padding: 20px !important;
     }
+}
+
+/*-------------------------------
+# Back to top button
+----------------------------------*/
+.back-to-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 10;
+}
+
+.back-to-top img {
+    width: 50px;
+    height: 50px;
+    transition: 1s ease-out;
+}
+
+.back-to-top img:hover {
+    transform: scale(1.2);
+    transition: 1s ease-out;
 }
