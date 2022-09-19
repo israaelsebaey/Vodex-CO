@@ -119,7 +119,12 @@
     color: #fff;
 }
 
-.home .img {
+.home img{
+    width: 100%;
+    height: 100%;
+}
+
+/* .home .img {
     position: relative;
 }
 
@@ -133,7 +138,7 @@
 
 .home .img2 {
     opacity: 0;
-}
+} */
 
 /* .home .img:hover .img1{
     opacity: 0;
