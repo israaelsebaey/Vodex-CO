@@ -61,6 +61,7 @@
 .home {
     background-color: var(--PrimaryColor);
     width: 100%;
+    overflow: hidden;
 }
 
 .home h2 {
@@ -397,6 +398,7 @@
     background-color: var(--PrimaryColor);
     color: var(--WhiteColor);
     border: 1px solid #fff;
+    overflow: hidden;
 
 }
 
@@ -555,6 +557,9 @@
 }
 
 /* Our Team */
+.our_team{
+    overflow: hidden;
+}
 .our_team .text{
     font-weight: 400;
 }
@@ -639,6 +644,7 @@
 /* Our Products */
 .products {
     background-color: var(--move-color);
+    overflow: hidden;
 }
 
 .products .title {
@@ -651,6 +657,9 @@
 }
 
 /* Contact */
+.contact{
+    overflow: hidden;
+}
 .contact h2, 
 .contact p {
     color: var(--PrimaryColor);
@@ -708,6 +717,7 @@
 /* Footer */
 footer {
     background: var(--move-color);
+    overflow: hidden;
 }
 
 footer .main {
