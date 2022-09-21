@@ -51,7 +51,7 @@ window.addEventListener('load',()=>{
             loop:true,
             margin:15,
             nav: true,
-            // autoplay: true,
+            autoplay: true,
             // dots: true,
             // responsiveClass:true,
             responsive:{

@@ -677,7 +677,8 @@
     width: 50%;
 }
 
-.contact input:focus {
+.contact input:focus,
+.contact textarea:focus {
     border-color: var(--pink-color);
     box-shadow: none;
 }
