@@ -1,3 +1,4 @@
+
 // window.addEventListener('load',()=>{
 //     //Selecting Elements
 //     //Web Section
@@ -71,11 +72,16 @@
 //             }
 //         })
 //       });
+//     //whats App Icon
+//     var whatsIcon=document.getElementById('whatsIcon');
+//     function showIcon(){
+//         whatsIcon.style.display="block";
+//         whatsIcon.style.transition = "all 2s"
+       
+//     }
+//     setTimeout(showIcon,3000);
 
-swal("Your Welcome!", "You clicked the button!", "success");
-
-
-
+// swal("Your Welcome!", "You clicked the button!", "success");
 // })
 
-window.addEventListener("load",()=>{let e=document.getElementById("web"),t=document.getElementById("overlay-web"),l=document.getElementById("close-web"),n=document.getElementById("social"),d=document.getElementById("overlay-social"),a=document.getElementById("close-social"),o=document.getElementById("create"),s=document.getElementById("overlay-create"),i=document.getElementById("close-create"),c=document.getElementById("motion"),y=document.getElementById("overlay-motion"),r=document.getElementById("close-motion"),m=document.getElementById("design"),E=document.getElementById("overlay-design"),v=document.getElementById("close-design");function g(e,t){e.classList.add("showoverlay"),e.classList.remove("hideoverlay"),t.addEventListener("click",()=>{e.classList.add("hideoverlay")})}e.addEventListener("click",()=>{g(t,l)}),n.addEventListener("click",()=>{g(d,a)}),o.addEventListener("click",()=>{g(s,i)}),c.addEventListener("click",()=>{g(y,r)}),m.addEventListener("click",()=>{g(E,v)}),$(document).ready(function(){$(".owl-carousel").owlCarousel({loop:!0,margin:15,nav:!0,autoplay:!0,responsive:{0:{items:1,nav:!1},600:{items:2,nav:!1},1e3:{items:3,nav:!0}}})})});
+window.addEventListener("load",()=>{let e=document.getElementById("web"),t=document.getElementById("overlay-web"),l=document.getElementById("close-web"),n=document.getElementById("social"),s=document.getElementById("overlay-social"),d=document.getElementById("close-social"),o=document.getElementById("create"),a=document.getElementById("overlay-create"),i=document.getElementById("close-create"),c=document.getElementById("motion"),y=document.getElementById("overlay-motion"),r=document.getElementById("close-motion"),m=document.getElementById("design"),E=document.getElementById("overlay-design"),v=document.getElementById("close-design");function g(e,t){e.classList.add("showoverlay"),e.classList.remove("hideoverlay"),t.addEventListener("click",()=>{e.classList.add("hideoverlay")})}e.addEventListener("click",()=>{g(t,l)}),n.addEventListener("click",()=>{g(s,d)}),o.addEventListener("click",()=>{g(a,i)}),c.addEventListener("click",()=>{g(y,r)}),m.addEventListener("click",()=>{g(E,v)}),$(document).ready(function(){$(".owl-carousel").owlCarousel({loop:!0,margin:15,nav:!0,autoplay:!0,responsive:{0:{items:1,nav:!1},600:{items:2,nav:!1},1e3:{items:3,nav:!0}}})});var I=document.getElementById("whatsIcon");function B(){I.style.display="block",I.style.transition="all 2s"}setTimeout(B,3e3),swal("Your Welcome!","You clicked the button!","success")});
